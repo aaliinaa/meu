@@ -1,0 +1,257 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #32786e;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #93cdc1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-size: cover;
+}
+
+
+.title {
+    margin-top: 250px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #32786e;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 300px;
+    width: 300px;
+    background: #8DC6BA;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 50px;
+}
+
+.box-container .box a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.box-container .box2 {
+    height: 250px;
+    width: 300px;
+    background: #8DC6BA;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 50px;
+}
+
+.box-container .box2 p {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.box-container2 {
+    display: flex;
+}
+
+.box3 {
+    height: 625px;
+    width: 500px;
+    background: #93cdc1;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin-top: 100px;
+    margin-left: -450px;
+    
+}
+
+.box4 {
+    height: 625px;
+    width: 500px;
+    margin-top: -450px;
+    margin-right: -300px;
+    margin-left: 800px;
+}
+
+.box4 h2{
+    font-size: 20px;
+    color: #32786e;
+    text-transform: uppercase;
+}
+
+.box4 h4{
+    font-size: 20px;
+    color: #8DC6BA;
+}
+
+
+.box-container .text {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.imatge {
+    margin-top: 50px;
+}
+
+.box-container .box-formulari {
+    height: 590px;
+    width: 515px;
+    background: #93cdc1;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 50px;
+    margin-top: 200px;
+}
+
+.controls {
+    width: 88%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #32786e;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: #000;
+}
+
+.boto {
+    width: 92%;
+    background: #32786e;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 2px 0;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+.slider {
+    width: 1140px;
+    height: 675px;
+    margin: auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    margin-top: 50px;
+}
+
+.slider input[type="radio"] {
+    display: none;
+}
+
+.slider input[type="radio"]:checked ~ img {
+    opacity: 1;
+}
+
+.slider input[type="radio"] + label {
+    position: relative;
+    z-index: 50;
+    margin: 10px;
+
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #93cdc1;
+}
+
+.slider input[type="radio"]:checked + label {
+    background: #93cdc1;
+    border: 2px solid #fff;
+}
+
+.text2 {
+    font-size: 30px;
+    color: #32786e;
+}
+
+.text4 {
+    margin-left: 360px;
+    margin-right: 400px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.copi {
+    color: #32786e;
+}
+
+

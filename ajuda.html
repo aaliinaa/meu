@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Ens ajudes?</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="../MEU/imatges/favicon.jpg" type="image/ico">
+	<meta name="viewport" content="witdh=device-width, initial-scale=1.0">
+	
+</head>
+<body>
+	<div class="head">
+		<div class="logo">
+			<a href="index.html">
+        		<img src="../MEU/imatges/logo.jpg" height="37" width="95" alt="logo">
+      		</a>
+		</div>
+		<nav class="navbar">
+			<a href="index.html">Inici</a>
+          	<a href="adopcions.html">Adopcions</a>
+          	<a href="ajuda.html">Ens ajudes?</a>
+          	<a href="contacte.html">Contacte</a>
+   	</nav>
+	</div>
+
+	<form action="alina_noa.php" method="post">
+		<div class="box-container">
+			<div class="box-formulari">
+				<div class="text">
+					<h2>Ens ajudes?</h2>
+					<br>
+					Nom <br>
+					<input class="controls" type="text" name="nom" value="" placeholder="nom"><br>
+					<br>
+					Cognom <br>
+					<input class="controls" type="text" name="cognom" value="" placeholder="cognom"><br>
+					<br>
+					Telèfon <br>
+					<input class="controls" type="text" name="dni" value="" size="10" maxlength="9" placeholder="telèfon"><br>
+					<br>
+					Correu <br>
+					<input class="controls" type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="correu">
+			      	<br>
+			      	<br>
+			     	 Tipus de voluntariat: <br>
+			     	<input type="checkbox" name="Voluntari_treball" value="voluntari"> Voluntaris per centres de treball <br>
+			      	<input type="checkbox" name="acollida_gats" value="acollida"> Acollir gats durant uns dies <br>
+			      	<input type="checkbox" name="donatius_animals" value="donatius"> Donatius per els gats <br>
+			      	<br>
+			      	<input class="boto" type="submit" name="enviar" value="Enviar" >
+		      </div>
+	      </div>
+		</div>
+	</form>
+    <div class="copi">
+        &copy; 2022 Meu
+    </div>
+
+</body>
+</html>
